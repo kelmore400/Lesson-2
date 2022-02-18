@@ -1,4 +1,5 @@
 import { Example } from '../Example';
+import ClassComponent from '../ClassComponent/index';
 import './App.css';
 // import FirstComponent from '../FirstComponent/FirstComponent';
 // import FunctionComponent from '../FunctionComponent';
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <Example/>
       <Example name="Alex"/>
+      <ClassComponent address="Kyiv, Ivana Franka, 6"/>
       {/* <FirstComponent name="Alex"/>
       <FirstComponent>
         <h1>Welcome</h1>
